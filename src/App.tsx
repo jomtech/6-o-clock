@@ -33,7 +33,7 @@ function App() {
           className="App-logo"
         />
         <p>{getTarget(6).format("YYYY/M/D(ddd) H:mm:ss")}まであと</p>
-        <h2>{dayjs(count).utc().format("HH:mm:ss.SSS")}</h2>
+        <h2>{dayjs(count).utc().format("HH:mm:ss")}</h2>
       </header>
     </div>
   );
